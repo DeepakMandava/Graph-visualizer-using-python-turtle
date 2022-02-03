@@ -1,3 +1,10 @@
+'''
+Title:      Graph visualiser with BFS(Breadth first search) and DFS(Depth first search)
+Author:     Deepak Mandava
+Created on: 30-01-2022
+version:     version-1(protype)
+
+'''
 from layout import *
 from operations import operations
 
@@ -49,3 +56,4 @@ class dfs(operations):
             self.bfs()
         self.g = graph
         pen.speed(10)
+        print(self.b)

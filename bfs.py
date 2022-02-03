@@ -1,3 +1,10 @@
+'''
+Title:      Graph visualiser with BFS(Breadth first search) and DFS(Depth first search)
+Author:     Deepak Mandava
+Created on: 30-01-2022
+version:     version-1(protype)
+
+'''
 from layout import *
 from operations import operations
 
@@ -46,6 +53,7 @@ class bfs(operations):
         elif node=='':
             messagebox.showwarning("warning","please enter lable of node from where you want to start BFS")
             self.bfs()
+        print(self.b)
         pen.speed(10)
 
     def dfs():

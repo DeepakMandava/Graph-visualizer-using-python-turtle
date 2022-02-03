@@ -1,3 +1,10 @@
+'''
+Title:      Graph visualiser with BFS(Breadth first search) and DFS(Depth first search)
+Author:     Deepak Mandava
+Created on: 30-01-2022
+version:     version-1(protype)
+
+'''
 from operations import operations
 from layout import *
 import re
